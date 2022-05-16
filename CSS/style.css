@@ -1494,6 +1494,9 @@ footer span a:hover{
         font-family: 'Ubuntu',sans-serif;
     
     }
+    .home .home-content{
+        margin-top: 20px;
+    }
 
   
     .home .home-content .text-2{
