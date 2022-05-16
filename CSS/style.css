@@ -1477,9 +1477,7 @@ footer span a:hover{
 
 @media(max-width: 395px)
 {
-    .navber .logo a span{
-        color: #fff;
-    }
+    
 
     .home{
         display: flex;
@@ -1495,7 +1493,7 @@ footer span a:hover{
     
     }
     .home .home-content{
-        margin-top: 20px;
+        margin-top: 80px;
     }
 
   
