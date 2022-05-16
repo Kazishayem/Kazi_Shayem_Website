@@ -1477,6 +1477,9 @@ footer span a:hover{
 
 @media(max-width: 395px)
 {
+    .navber .logo a span{
+        color: #fff;
+    }
 
     .home{
         display: flex;
@@ -1569,9 +1572,9 @@ footer span a:hover{
 
 @media(max-width: 166px)
 {
-    .navber .logo a span{
+    /* .navber .logo a span{
         color: #fff;
-    }
+    } */
 
     .home{
         display: flex;
