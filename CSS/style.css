@@ -1569,6 +1569,9 @@ footer span a:hover{
 
 @media(max-width: 166px)
 {
+    .navber .logo a span{
+        color: #fff;
+    }
 
     .home{
         display: flex;
