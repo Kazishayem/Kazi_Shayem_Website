@@ -104,8 +104,9 @@ html{
 }
 
 .home .home-content .text-3 span{
-    color: rgb(224, 70, 103);
-  font-weight: 500;
+    /* color: rgb(224, 70, 103); */
+    color: crimson;
+  font-weight: 600;
   
 }
 .home .home-content a{
