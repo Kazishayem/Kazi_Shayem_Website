@@ -1567,7 +1567,7 @@ footer span a:hover{
 
 }
 
-@media  (max-width: 150px )
+@media  (max-width: 200px )
 {
     .navber .logo a{
         
@@ -1584,10 +1584,10 @@ footer span a:hover{
         background-image: url("../images/bg171600x968.jpg");
         background-size: cover;
          background-repeat: no-repeat;
-        height: 56vh;
+        height: 40vh;
         width: 100%;
         color: #fff;
-        min-height: 100px;
+        min-height: 50px;
         font-family: 'Ubuntu',sans-serif;
     
     }
