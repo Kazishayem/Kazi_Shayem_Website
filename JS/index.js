@@ -32,8 +32,8 @@ $(document).ready(function(){
 var typed = new Typed(".typing", {
     strings: ["Full-Stack Web Developer","React Developer"],  
 
-    typespeed:100,
-    backspeed:60,
+    typespeed:50,
+    backspeed:20,
     loop: true
 
 });
@@ -41,8 +41,8 @@ var typed = new Typed(".typing", {
 var typed = new Typed(".typing-2", {
     strings: ["Full-Stack Web Developer","React Developer"], 
 
-    typespeed:500,
-     backspeed:30,
+    typespeed:50,
+     backspeed:20,
     loop: true
 
 });
