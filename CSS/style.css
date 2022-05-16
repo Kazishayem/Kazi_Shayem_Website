@@ -27,7 +27,7 @@ html{
         padding: 8px 0;
 }
 .max-width{
-    max-width: 1300px;
+    /* max-width: 1300px; */
     padding: 0 80px;
     margin: auto;
 }
@@ -1383,7 +1383,7 @@ footer span a:hover{
     .home{
         display: flex;
         
-        background-image: url("../images/1310x968.jpg");
+        background-image: url("../images/bg171600x968.jpg");
         background-size: cover;
          background-repeat: no-repeat;
         height: 70vh;
