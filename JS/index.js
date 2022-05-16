@@ -7,7 +7,19 @@ $(document).ready(function(){
             $('.navber').removeClass("sticky");
 
         }
+        if(this.scroll > 500){
+            $('.scroll-up-btn').addClass("show");
+        }
+        else{
+            $('.scroll-up-btn').removeClass("show");
+        }
 
+    });
+
+    // slide-up script
+
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop: 0});
     });
     // toggle menu/navber script
     $('.menu-btn').click(function(){
@@ -15,6 +27,27 @@ $(document).ready(function(){
         $('.navber .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+
+    // typing animation script
+var typed = new Typed(".typing", {
+    strings: ["Full-Stack Web Developer","React Developer"],  
+
+    typespeed:100,
+    backspeed:60,
+    loop: true
+
+});
+
+var typed = new Typed(".typing-2", {
+    strings: ["Full-Stack Web Developer","React Developer"], 
+
+    typespeed:500,
+     backspeed:30,
+    loop: true
+
+});
+
+
 
     // owl carousel script
     $('.carousel').owlCarousel({
