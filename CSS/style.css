@@ -1567,7 +1567,7 @@ footer span a:hover{
 
 }
 
-@media(max-width: 300px )
+@media screen and (min-width: 300px )
 {
     .navber .logo a{
         
@@ -1666,3 +1666,4 @@ footer span a:hover{
 
 
 }
+
