@@ -1475,7 +1475,7 @@ footer span a:hover{
 }
 
 
-@media(max-width: 400px )
+@media(max-width: 390px )
 {
 
     .home{
@@ -1484,7 +1484,7 @@ footer span a:hover{
         background-image: url("../images/bg171600x968.jpg");
         background-size: cover;
          background-repeat: no-repeat;
-        height: 60vh;
+        height: 40vh;
         width: 100%;
         color: #fff;
         min-height: 300px;
@@ -1500,106 +1500,6 @@ footer span a:hover{
     }
     .home .home-content .text-3{
         font-size: 15px;
-        
-        
-    }
-
-    .home .home-content a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 10px;
-    padding: 6px 17px;
-    margin-top: 10px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-.home .home-content a:hover{
-
-    color: crimson;
-    background: none;
-}
-
-.services .services-content .card{
-    width: calc(100% - 10px);
-    margin-bottom: 20px;
-}
-
-.navber .logo a span{
-    font-size: 20px;
-}
-
-.experience .experience-content .left{
-    width: 100%;
-}
-.experience .experience-content .right{
-    width: 100%;
-}
-.skills .skills-content .column{
-    
-    width: calc(100%);
-    margin-bottom: 30px;
-}
-.contact .contact-content .column{
-    width: calc(100%);
-    margin-bottom: 30px;
-}
-.scroll-up-btn{
-    position: fixed;
-    height: 25px;
-    width: 22px;
-    background: crimson;
-    right: 30px;
-    bottom: 10px;
-    text-align: center;
-    line-height: 25px;
-    color: #fff;
-    z-index: 9999;
-    font-size: 10px;
-    border-radius: 6px;
-    cursor: pointer;
-     /* opacity: 0;  */
-     /* pointer-events: none; */
-    transition: all 0.3s ease; 
-}
-
-
-}
-
-@media  (max-width: 300px )
-{
-    .navber .logo a{
-        
-        font-size: 20px;
-        font-weight: 400;
-        color: #fff;
-     
-    
-    }
-
-    .home{
-        display: flex;
-        
-        background-image: url("../images/01.jpg");
-        background-size: cover;
-         background-repeat: no-repeat;
-        height: 40vh;
-        width: 100%;
-        color: #fff;
-        min-height: 50px;
-        font-family: 'Ubuntu',sans-serif;
-    
-    }
-
-  
-    .home .home-content .text-2{
-        font-size: 20px;
-       
-        
-    }
-    .home .home-content .text-3{
-        font-size: 12px;
         
         
     }
