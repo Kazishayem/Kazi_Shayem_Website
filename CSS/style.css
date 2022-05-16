@@ -44,7 +44,7 @@ html{
 
 }
 .navber .logo a span{
-    color: #000;
+    color: #222;
 }
 .navber .menu li{
     list-style: none;
@@ -110,13 +110,13 @@ html{
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: #222;
     color: #fff;
-    font-size: 25px;
-    padding: 12px 30px;
+    font-size: 18px;
+    padding: 10px 20px;
     margin-top: 10px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #333;
     transition: all 0.3s ease;
 }
 
