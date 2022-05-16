@@ -1584,10 +1584,12 @@ footer span a:hover{
         font-family: 'Ubuntu',sans-serif;
     
     }
-
+    .home .home-content{
+        margin-top: 15px;
+    }
   
     .home .home-content .text-2{
-        font-size: 25px;
+        font-size: 20px;
        
         
     }
