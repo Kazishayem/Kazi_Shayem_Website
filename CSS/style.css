@@ -959,6 +959,11 @@ transition: all 0.3s ease;
     color: crimson;
     background: none;
 }
+.contact .right form  p{
+  margin-top: 15px;
+
+  color: green;
+}
 
 /* contact :end */
 
